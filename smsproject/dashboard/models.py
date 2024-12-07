@@ -28,7 +28,7 @@ class Message(models.Model):
     def save(self, *args, **kwargs):
         # Twilio Account SID and Auth Token (should ideally be stored securely, e.g., in environment variables).
         account_sid = 'AC1b19cb75cd7b50ca291b1d8bf468927b'
-        auth_token = '3812cc79f8af6961154bc2e127c76685'
+        auth_token = '7b6b0b0464cd0600d820647259e2a6f8'
         client = Client(account_sid, auth_token)
 
         # Create the event reminder SMS message body with team and event details.
